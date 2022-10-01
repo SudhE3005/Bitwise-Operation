@@ -6,6 +6,7 @@
     <meta name="viewport" content="wclass="bit" idth=device-wclass="bit" idth, initial-scale=1.0">
     <title>Bitwise Operation</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="intro">
@@ -13,14 +14,14 @@
     </div>
     <div class="input">
         <h3>Input 1</h3>
-        <div class="flexcont">
-            <div class="bit" id="i11"></div>
+        <div class=" byte1 flexcont">
+            <div class="bit selected" id="i11"></div>
             <div class="bit" id="i12"></div>
             <div class="bit" id="i13"></div>
-            <div class="bit" id="i14"></div>
+            <div class="bit selected" id="i14"></div>
             <div class="bit" id="i15"></div>
             <div class="bit" id="i16"></div>
-            <div class="bit" id="i17"></div>
+            <div class="bit selected" id="i17"></div>
             <div class="bit" id="i18"></div>
         </div>
         <div>
@@ -28,18 +29,18 @@
         </div>
     </div>
     <div class="input two">
-        <h3>Input 2</h3>
-        <div class="flexcont">
+        <h3 class="">Input 2</h3>
+        <div class="byte2 flexcont">
             <div class="bit" id="i21"></div>
             <div class="bit" id="i22"></div>
-            <div class="bit" id="i23"></div>
+            <div class="bit selected" id="i23"></div>
             <div class="bit" id="i24"></div>
             <div class="bit" id="i25"></div>
-            <div class="bit" id="i26"></div>
-            <div class="bit" id="i27"></div>
+            <div class="bit selected" id="i26"></div>
+            <div class="bit selected" id="i27"></div>
             <div class="bit" id="i28"></div>
         </div>
-        <p>Integer value: <span id="val2"></span></p>
+        <p class="">Integer value: <span id="val2"></span></p>
     </div>
     <div class="operations">
         <h2>Choose any one bit operation</h2>
@@ -57,16 +58,17 @@
     <div class="input output">
         <h3>Output</h3>
         <div class="flexcont">
-            <div class="bit" id="i31"></div>
-            <div class="bit" id="i32"></div>
-            <div class="bit" id="i33"></div>
-            <div class="bit" id="i34"></div>
-            <div class="bit" id="i35"></div>
-            <div class="bit" id="i36"></div>
-            <div class="bit" id="i37"></div>
-            <div class="bit" id="i38"></div>
+            <div class="res" id="i31"></div>
+            <div class="res" id="i32"></div>
+            <div class="res" id="i33"></div>
+            <div class="res" id="i34"></div>
+            <div class="res" id="i35"></div>
+            <div class="res" id="i36"></div>
+            <div class="res" id="i37"></div>
+            <div class="res" id="i38"></div>
         </div>
         <p>Integer value: <span id="val3"></span></p>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
