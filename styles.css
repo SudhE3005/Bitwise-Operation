@@ -8,6 +8,7 @@ body{
 }
 
 .input{
+    padding: 1px 0;
     width: 60%;
     background-color: #FFE3E1;
     margin: 0 auto;
@@ -25,4 +26,8 @@ body{
     border-radius: 50%;
     display: inline-block;
     margin: 1rem;
+}
+
+.ops{
+    margin: 0.5rem;
 }
